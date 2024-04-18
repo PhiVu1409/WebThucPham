@@ -1,0 +1,186 @@
+body, h1, h2, h3, p, nav, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+}
+
+.title{
+    font-size: 24px;
+    margin: 0 0 0 20px;
+    
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+/* form {
+    margin-bottom: 20px;
+} */
+
+.formAdd_dm {
+    max-width: 400px;
+    display: flex;
+    align-items: center;    
+}
+
+.addTitle {
+    width: 65%;
+    margin-right: 20px;
+}
+
+.add {
+    width: 25%;
+    display: inline-block;
+}
+
+.addsanpham {
+    width: 100%;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 0.5px solid #ece7e7;
+}
+
+.stt {
+    width: 30px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #fff; /* Tạo đường kẻ xung quanh ô th */
+    text-align: center; /* Căn giữa nội dung của th */
+    line-height: 2; /* Đặt chiều cao dòng để chữ nằm giữa ô th */
+}
+
+td:last-child {
+    white-space: nowrap; /* Ngăn chặn quấn dòng của nội dung trong ô */
+}
+
+td a {
+    display: inline-block;
+    margin-right: 5px; /* Giảm khoảng cách giữa các liên kết */
+    text-decoration: none;
+    color: #333;
+    padding: 5px 8px; /* Giảm padding để làm cho ô thao tác nhỏ hơn */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Hover effect cho liên kết trong cột thao tác */
+td a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+form {
+    max-width: 300px;
+    margin: 0 25px 0 0;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    flex-wrap: wrap
+}
+
+.chon,
+.textbox {
+    flex-basis: calc(50%); /* 33.33% cho mỗi cột, trừ đi khoảng cách */
+    margin-bottom: 15px;
+}
+
+.chon {
+    height: 40px;
+}
+
+.textbox[type="file"] {
+    padding: 5px;
+}
+
+.textbox[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.textbox[type="submit"]:hover {
+    background-color: #45a049;
+}
+

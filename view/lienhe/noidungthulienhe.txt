@@ -1,0 +1,7 @@
+<h3>Khach hang da lien he</h3>
+<hr>
+<p> Email khach hang: <i> <b> {$_POST['email']} </b> </i> </p>
+
+<p> SDT khach hang: <i> <b> {$_POST['sdt']} </b> </i> </p>
+
+<p> Noi dung lien he: <i> <b> {$_POST['noidung']} </b> </i> </p>

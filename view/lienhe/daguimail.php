@@ -1,0 +1,1 @@
+<h1>Cảm ơn quý khách đã liên hệ. Chúng tôi sẽ liên hệ lại với quý khách khi nhận được mail</h1>
